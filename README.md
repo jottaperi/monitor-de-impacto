@@ -21,11 +21,12 @@ Este projeto foi construído para demonstrar habilidades em desenvolvimento web 
 Os cálculos de emissão seguem as seguintes métricas base:
 **Transporte:** 0.18 kg de CO2 por km rodado.
 **Alimentação:** 27.0 kg de CO2 por kg de carne consumida.
-**Energia:** 0.09 kg de CO2 por kWh gasto.
+**Energia:** 0.09 kg de CO2 por kWh gasto.streamlit run monitor.py
 
 # Como executar o projeto
 
 1. Certifique-se de ter o Python instalado.
 2. Instale as dependências necessárias:
    ```bash
-   pip install streamlit pandas
+   pip install streamlit
+   streamlit run monitor.py
